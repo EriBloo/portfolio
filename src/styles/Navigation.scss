@@ -1,0 +1,40 @@
+.navigation {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 5vh;
+  background-color: #393e46;
+  border-bottom: #333333 solid 1px;
+  box-shadow: 0rem 0.5rem 2rem rgba(0, 0, 0, 0.25);
+  display: flex;
+  justify-content: center;
+  gap: 0.1rem;
+
+  .nav-point-wrapper {
+    width: 10ch;
+    max-width: 18vw;
+    height: 5vh;
+    display: grid;
+    place-items: center;
+    border-bottom: transparent solid 0.5vh;
+    cursor: pointer;
+
+    h2 {
+      color: #eeeeee;
+      font-weight: 100;
+    }
+
+    &:hover {
+      border-bottom: #00adb5 solid 0.5vh;
+    }
+  }
+
+  .current {
+    border-bottom: #00adb5 solid 0.5vh;
+
+    & > h2 {
+      color:  #00adb5;
+    }
+  }
+}
