@@ -1,10 +1,10 @@
 import '../styles/About.scss';
-import avatar from '../avatar.png';
+import avatar from '../images/avatar.png';
 
 function About() {
   return (
     <div className="about">
-      <div className="title">
+      <div className="about-title">
         <h1>ŁUKASZ PRZYBYSŁAWSKI</h1>
         <h2>Junior Front-End Developer</h2>
       </div>
