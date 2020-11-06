@@ -1,46 +1,22 @@
 .skills {
-  height: 100vh;
-  background-color: #222831;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  overflow: auto;
 
-  .skill-title {
-    width: calc(20rem + 1vw);
+  .skill {
+    height: 15rem;
+    width: 15rem;
+    background-color: #eeeeee;
+    border-radius: 0.1rem;
     display: grid;
     place-items: center;
-    padding-bottom: 2rem;
-    border-bottom: #eeeeee66 solid 0.5vh;
 
-    h2 {
-      font-size: calc(2rem + 1vw);
-      font-weight: 100;
-    }
-  }
-
-  .skills-wrapper {
-    width: 60%;
-    height: 60%;
-    margin-top: 2rem;
-    display: grid;
-    place-items: center;
-    grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
-    grid-gap: 1rem;
-    overflow: auto;
-
-    .skill {
-      height: 10rem;
-      width: 10rem;
-      background-color: #eeeeee;
-      border-radius: 0.1rem;
-      display: grid;
-      place-items: center;
-
-      img {
-        width: 80%;
-        height: auto;
-      }
+    img {
+      width: 80%;
+      height: auto;
     }
   }
 }

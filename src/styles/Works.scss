@@ -1,0 +1,64 @@
+.works {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  overflow: auto;
+
+  .work {
+    position: relative;
+    height: 20rem;
+    width: 20rem;
+    background-color: #eeeeee;
+    border-radius: 0.1rem;
+    display: grid;
+    place-items: center;
+    overflow: hidden;
+
+    img {
+      object-fit: cover;
+      width: auto;
+      height: 100%;
+    }
+
+    .overlay {
+      position: absolute;
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+      width: 100%;
+      background-color: rgba(0, 0, 0, 0.5);
+      opacity: 0;
+      transition: opacity 0.3s ease;
+
+      .code {
+        align-self: flex-end;
+        padding: 1rem;
+        font-size: 2rem;
+        text-decoration: none;
+        color: #eeeeee;
+
+        &:hover {
+          color: #00adb5;
+        }
+      }
+
+      .description {
+        margin-top: auto;
+        padding: 1rem;
+        font-size: 1.5rem;
+        text-decoration: none;
+        color: #eeeeee;
+
+        &:hover {
+          color: #00adb5;
+        }
+      }
+    }
+
+    &:hover > .overlay {
+      opacity: 1;
+    }
+  }
+}

@@ -1,15 +1,16 @@
+import '../styles/Section.scss';
 import '../styles/About.scss';
-import avatar from '../images/avatar.png';
 
 function About() {
   return (
-    <div className="about">
-      <div className="about-title">
-        <h1>ŁUKASZ PRZYBYSŁAWSKI</h1>
-        <h2>Junior Front-End Developer</h2>
+    <section className="container">
+      <div className="title">
+        <h2>About</h2>
       </div>
-      <img src={avatar} alt="" className="avatar" />
-    </div>
+      <div className="about wrapper">
+
+      </div>
+    </section>
   )
 }
 
