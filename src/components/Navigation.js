@@ -26,8 +26,8 @@ function Navigation() {
   }, [height]);
 
   useEffect(() => {
-    // changes current height
-    setHeight(Math.floor(scrollY / window.innerHeight));
+    // changes current height, clamps output between 0 and 4
+    setHeight(Math.min(Math.max(Math.floor(scrollY / (window.innerHeight * 0.9)), 0), 4));
   }, [scrollY]);
 
   return (
