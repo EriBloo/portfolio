@@ -7,11 +7,9 @@ function About() {
       <div className="title">
         <h2>About</h2>
       </div>
-      <div className="about wrapper">
-
-      </div>
+      <div className="about wrapper"></div>
     </section>
-  )
+  );
 }
 
 export default About;

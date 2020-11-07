@@ -15,26 +15,26 @@ function Skills() {
       </div>
       <div className="skills wrapper">
         <div className="skill">
-          <img src={htmlIcon} alt="html5"/>
+          <img src={htmlIcon} alt="html5" />
         </div>
         <div className="skill">
-          <img src={sassIcon} alt="Sass"/>
+          <img src={sassIcon} alt="Sass" />
         </div>
         <div className="skill">
-          <img src={jsIcon} alt="JS"/>
+          <img src={jsIcon} alt="JS" />
         </div>
         <div className="skill">
-          <img src={reactIcon} alt="React"/>
+          <img src={reactIcon} alt="React" />
         </div>
         <div className="skill">
-          <img src={npmIcon} alt="npm"/>
+          <img src={npmIcon} alt="npm" />
         </div>
         <div className="skill">
-          <img src={webpackIcon} alt="Webpack"/>
+          <img src={webpackIcon} alt="Webpack" />
         </div>
       </div>
     </section>
-  )
+  );
 }
 
 export default Skills;

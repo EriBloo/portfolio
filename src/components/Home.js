@@ -10,7 +10,7 @@ function Home() {
       </div>
       <img src={avatar} alt="" className="avatar" />
     </div>
-  )
+  );
 }
 
 export default Home;

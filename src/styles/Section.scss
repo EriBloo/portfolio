@@ -23,5 +23,19 @@
     width: 60vw;
     height: 60vh;
     margin-top: 2rem;
+    scrollbar-width: thin;
+    scrollbar-color: #00adb5 #eeeeee;
+
+    &::-webkit-scrollbar {
+      width: 5px;
+    }
+
+    &::-webkit-scrollbar-track {
+      background-color: #eeeeee;
+    }
+
+    &::-webkit-scrollbar-thumb {
+      background-color: #00adb5;
+    }
   }
 }

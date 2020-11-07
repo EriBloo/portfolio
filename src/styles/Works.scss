@@ -13,7 +13,6 @@
     background-color: #eeeeee;
     border-radius: 0.1rem;
     display: grid;
-    place-items: center;
     overflow: hidden;
 
     img {
@@ -30,6 +29,7 @@
       width: 100%;
       background-color: rgba(0, 0, 0, 0.5);
       opacity: 0;
+      pointer-events: none;
       transition: opacity 0.3s ease;
 
       .code {
@@ -59,6 +59,7 @@
 
     &:hover > .overlay {
       opacity: 1;
+      pointer-events: all;
     }
   }
 }
