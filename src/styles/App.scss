@@ -1,0 +1,45 @@
+:root {
+  --op: 1;
+}
+
+.language {
+  width: calc(2rem + 1.8vw);
+  height: calc(2rem + 1.8vw);
+  position: fixed;
+  bottom: 2rem;
+  left: 2rem;
+  border-radius: 50%;
+  background-color: #00adb5;
+  box-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.4);
+  display: grid;
+  place-items: center;
+  opacity: 0.5;
+  cursor: pointer;
+  transition: opacity 0.2s ease;
+
+  p {
+    font-size: calc(1rem + 0.5vw);
+  }
+
+  &::before {
+    content: 'PL';
+    position: absolute;
+    color: #eeeeee;
+    font-size: calc(1rem + 0.5vw);
+    opacity: var(--op);
+    transition: opacity 0.5s ease;
+  }
+
+  &::after {
+    content: 'EN';
+    position: absolute;
+    color: #eeeeee;
+    font-size: calc(1rem + 0.5vw);
+    opacity: calc(1 - var(--op));
+    transition: opacity 0.5s ease;
+  }
+
+  &:hover {
+    opacity: 1;
+  }
+}

@@ -4,14 +4,15 @@ import jsIcon from '../images/js.png';
 import reactIcon from '../images/react.png';
 import npmIcon from '../images/npm.png';
 import webpackIcon from '../images/webpack.svg';
+import content from '../content';
 import '../styles/Section.scss';
 import '../styles/Skills.scss';
 
-function Skills() {
+function Skills(props) {
   return (
     <section className="container">
       <div className="title">
-        <h2>Skills</h2>
+        <h2>{content[props.lang].navigation[1]}</h2>
       </div>
       <div className="skills wrapper">
         <div className="skill">

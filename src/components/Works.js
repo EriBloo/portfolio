@@ -1,14 +1,15 @@
 import weatherAppImg from '../images/weather-app.png';
 import simplyDoImg from '../images/simply-do.png';
 import pokemonGameImg from '../images/pokemon-game.png';
+import content from '../content';
 import '../styles/Section.scss';
 import '../styles/Works.scss';
 
-function Works() {
+function Works(props) {
   return (
     <section className="container">
       <div className="title">
-        <h2>Works</h2>
+        <h2>{content[props.lang].navigation[2]}</h2>
       </div>
       <div className="works wrapper">
         <div className="work">
@@ -28,7 +29,7 @@ function Works() {
               rel="noreferrer"
               className="description"
             >
-              Weather App created with React, React Router and various APIs.
+              {content[props.lang].works[0]}
             </a>
           </div>
         </div>
@@ -49,8 +50,7 @@ function Works() {
               rel="noreferrer"
               className="description"
             >
-              To-Do List created with plain javascript that uses Firebase
-              Database and Authentication.
+              {content[props.lang].works[1]}
             </a>
           </div>
         </div>
@@ -71,7 +71,7 @@ function Works() {
               rel="noreferrer"
               className="description"
             >
-              Simple memory game created with React.
+              {content[props.lang].works[2]}
             </a>
           </div>
         </div>
