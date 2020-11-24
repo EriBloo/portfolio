@@ -5,6 +5,7 @@ const content = {
       'Aplikacja Pogody przy użyciu React, React Router i różnych API',
       'Lista spraw przy użyciu Javascript z wykorzystaniem Bazy i Uwierzytelniania Firebase',
       'Prosta gra pamięciowa z wykorzystaniem React',
+      'Gra w statki z użyciem Typescript, React i Jest',
     ],
     about: [
       'Pochodzę z Gniezna, a aktualnie mieszkam w Płocku, dokąd przeprowadziłem się ze względu na pracę.',
@@ -20,12 +21,13 @@ const content = {
       'Weather App created with React, React Router and various APIs',
       'To-Do List created with plain javascript that uses Firebase Database and Authentication',
       'Simple memory game created with React',
+      'Battleship game made with Typescript, React and Jest',
     ],
     about: [
       'I come from Gniezno, currently living in Płock, where I moved because of work.',
       'Few months ago I decided to switch my current job as a Veterinarian and develop my passion. Started with Python, now I use HTML, SaSS, Javascript and React. In the future I would like to learn Back-End technologies and transition into Full-Stack Developer.',
       "In the free time I like to play board games with friends or PC games (mostly RPG). I'm interested in new technologies and science, mostly related to astronomy.",
-      'I always like to search solutions and learn new things and ways to apply them.',
+      'I like to search for solutions, learn new things and ways to apply them.',
     ],
     contact: "Let's get in touch",
   },

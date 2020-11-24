@@ -4,6 +4,8 @@ import jsIcon from '../images/js.png';
 import reactIcon from '../images/react.png';
 import npmIcon from '../images/npm.png';
 import webpackIcon from '../images/webpack.svg';
+import typescriptIcon from '../images/typescript.svg';
+import figmaIcon from '../images/figma.png';
 import content from '../content';
 import '../styles/Section.scss';
 import '../styles/Skills.scss';
@@ -32,6 +34,12 @@ function Skills(props) {
         </div>
         <div className="skill">
           <img src={webpackIcon} alt="Webpack" />
+        </div>
+        <div className="skill">
+          <img src={typescriptIcon} alt="Typescript" />
+        </div>
+        <div className="skill">
+          <img src={figmaIcon} alt="Figma" />
         </div>
       </div>
     </section>

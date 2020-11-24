@@ -1,6 +1,7 @@
 import weatherAppImg from '../images/weather-app.png';
 import simplyDoImg from '../images/simply-do.png';
 import pokemonGameImg from '../images/pokemon-game.png';
+import battleshipGameImg from '../images/battleship.png';
 import content from '../content';
 import '../styles/Section.scss';
 import '../styles/Works.scss';
@@ -72,6 +73,27 @@ function Works(props) {
               className="description"
             >
               {content[props.lang].works[2]}
+            </a>
+          </div>
+        </div>
+        <div className="work">
+          <img src={battleshipGameImg} alt="Memory Game" />
+          <div className="overlay">
+            <a
+              href="https://github.com/EriBloo/battleship"
+              target="_blank"
+              rel="noreferrer"
+              className="code"
+            >
+              {'< />'}
+            </a>
+            <a
+              href="https://eribloo.github.io/battleship/"
+              target="_blank"
+              rel="noreferrer"
+              className="description"
+            >
+              {content[props.lang].works[3]}
             </a>
           </div>
         </div>
