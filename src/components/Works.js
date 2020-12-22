@@ -1,5 +1,5 @@
 import weatherAppImg from '../images/weather-app.png';
-import simplyDoImg from '../images/simply-do.png';
+import lotrImg from '../images/lotr.jpg';
 import pokemonGameImg from '../images/pokemon-game.png';
 import battleshipGameImg from '../images/battleship.png';
 import content from '../content';
@@ -14,6 +14,27 @@ function Works(props) {
       </div>
       <div className="works wrapper">
         <div className="work">
+          <img src={lotrImg} alt="Middle-earth map" />
+          <div className="overlay">
+            <a
+              href="https://github.com/EriBloo/interactive-middle-earth-map"
+              target="_blank"
+              rel="noreferrer"
+              className="code"
+            >
+              {'< />'}
+            </a>
+            <a
+              href="https://interactive-middle-earth-map.netlify.app/"
+              target="_blank"
+              rel="noreferrer"
+              className="description"
+            >
+              {content[props.lang].works[0]}
+            </a>
+          </div>
+        </div>
+        <div className="work">
           <img src={weatherAppImg} alt="Weather App" />
           <div className="overlay">
             <a
@@ -26,27 +47,6 @@ function Works(props) {
             </a>
             <a
               href="https://eribloo.github.io/weather-app/"
-              target="_blank"
-              rel="noreferrer"
-              className="description"
-            >
-              {content[props.lang].works[0]}
-            </a>
-          </div>
-        </div>
-        <div className="work">
-          <img src={simplyDoImg} alt="To-Do List" />
-          <div className="overlay">
-            <a
-              href="https://github.com/EriBloo/To-Do-List"
-              target="_blank"
-              rel="noreferrer"
-              className="code"
-            >
-              {'< />'}
-            </a>
-            <a
-              href="https://simply-do-56272.web.app/"
               target="_blank"
               rel="noreferrer"
               className="description"

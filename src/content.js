@@ -2,8 +2,8 @@ const content = {
   PL: {
     navigation: ['Start', 'Znane', 'Projekty', 'O mnie', 'Kontakt'],
     works: [
+      'Mapa Śródziemia stworzona z wykorzystaniem Vue, Konva i gsap',
       'Aplikacja Pogody przy użyciu React, React Router i różnych API',
-      'Lista spraw przy użyciu Javascript z wykorzystaniem Bazy i Uwierzytelniania Firebase',
       'Prosta gra pamięciowa z wykorzystaniem React',
       'Gra w statki z użyciem Typescript, React i Jest',
     ],
@@ -18,8 +18,8 @@ const content = {
   EN: {
     navigation: ['Home', 'Skills', 'Works', 'About', 'Contact'],
     works: [
+      'Middle-Earth map created in canvas using Vue, Konva and gsap',
       'Weather App created with React, React Router and various APIs',
-      'To-Do List created with plain javascript that uses Firebase Database and Authentication',
       'Simple memory game created with React',
       'Battleship game made with Typescript, React and Jest',
     ],
