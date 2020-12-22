@@ -6,7 +6,7 @@ function About(props) {
   return (
     <section className="container">
       <div className="title">
-        <h2>About</h2>
+        <h2>{content[props.lang].navigation[3]}</h2>
       </div>
       <div className="about wrapper">
         <p>

@@ -7,7 +7,7 @@ function Contact(props) {
   return (
     <section className="container">
       <div className="title">
-        <h2>Contact</h2>
+        <h2>{content[props.lang].navigation[4]}</h2>
       </div>
       <div className="contact wrapper">
         <h3>{content[props.lang].contact}</h3>
